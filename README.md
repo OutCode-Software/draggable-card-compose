@@ -3,10 +3,15 @@
 ### Step 1. Add the JitPack repository to your build file
 
 allprojects {
+
 		repositories {
+  
 			...
+   
 			maven { url 'https://jitpack.io' }
+   
 		}
+  
 	}
 	
 	
@@ -23,9 +28,13 @@ Import DraggableCard class anywhere in your project.
 
 DraggableCard(
     item: Any, //Data Class of Item
+    
     modifier: Modifier = Modifier, //Custom Modifier Field
+    
     onSwiped: (Any, Any) -> Unit, //Handle Swiped Item
+    
     content: @Composable () -> Unit //Custom Content View
+    
 )
 
 ### Features
