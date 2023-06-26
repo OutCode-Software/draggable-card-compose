@@ -26,7 +26,9 @@ dependencies {
 
 Import DraggableCard class anywhere in your project.
 
+
 DraggableCard(
+
     item: Any, //Data Class of Item
     
     modifier: Modifier = Modifier, //Custom Modifier Field
@@ -36,6 +38,7 @@ DraggableCard(
     content: @Composable () -> Unit //Custom Content View
     
 )
+
 
 ### Features
 
